@@ -1,6 +1,6 @@
 # my-html5-boilerplate
 
-My HTML5 boilerplate with Milligram and configuration of capabilities for starting a Typescript or Javascript (6/7/8+) project
+My HTML5 boilerplate with Milligram and configuration of capabilities for starting Typescript or Javascript (6/7/8+) projects
 
 ## Contains
 
