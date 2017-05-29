@@ -1,6 +1,6 @@
 # my-html5-boilerplate
 
-My HTML5 boilerplate with miniframework [Milligram](https://milligram.io) and configuration/capabilities for starting a Typescript or Javascript (6/7/8+) projec
+My HTML5 boilerplate with Milligram and configuration of capabilities for starting a Typescript or Javascript (6/7/8+) project
 
 ## Contains
 
@@ -11,13 +11,9 @@ My HTML5 boilerplate with miniframework [Milligram](https://milligram.io) and co
 
 Easily serve the contents with a local HTTP2 server [simplehttp2server](https://github.com/GoogleChrome/simplehttp2server) from the Google Chrome team:
 
-
 On first run will drop ``cert.perm`` and ``key.perm`` into directory being served
 
-
-
 ### modules : interview : functional : exercises : es6-node
-
 
 ## Setup
 
@@ -48,6 +44,3 @@ This project is still evolving to encompass further refinements and customizatio
 ### License
 
 [MIT](LICENSE.md)
-
-
-
