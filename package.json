@@ -1,0 +1,46 @@
+{
+  "name": "my-html5-boilerplate",
+  "version": "0.0.1",
+  "description": "My HTML5 boilerplate with miniframework [Milligram](https://milligram.io) and configuration/capabilities for starting a Typescript or Javascript (6/7/8+) project",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "build": "npm run build:main",
+    "build:main": "tsc -p tsconfig.json",
+    "build:module": "tsc -p config/exports/tsconfig.module.json",
+    "watch": "tsc -p tsconfig.json -watch",
+    "test": "jest && codecov",
+    "cov": "npm unit && npm html-coverage && opn coverage/index.html",
+    "changelog": "standard-version"
+  },
+  "author": "Scott Wade <sc0ttwad3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "codecov": "^2.2.0",
+    "global": "^4.3.1",
+    "jest": "^20.0.4",
+    "opn-cli": "^3.1.0",
+    "trash-cli": "^1.4.0",
+    "ts-jest": "^20.0.4",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.3.2",
+    "tslint-config-standard": "^5.0.2",
+    "typedoc": "^0.7.1",
+    "typescript": "^2.3.3"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ]
+  }
+}

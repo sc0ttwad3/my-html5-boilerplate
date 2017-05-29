@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-config-standard",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "no-constant-condition": false,
+    "no-trailing-whitespace": false,
+    "no-irregular-whitespace": false,
+    "semicolon": [
+      false
+    ],
+    "space-before-function-paren": false
+  }
+}
