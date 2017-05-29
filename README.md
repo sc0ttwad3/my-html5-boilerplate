@@ -1,6 +1,6 @@
 # my-html5-boilerplate
 
-My HTML5 boilerplate with capabilities for starting a typescript 2.x/javascript ESnext (6/7/8+) project
+My HTML5 boilerplate with miniframework [Milligram](https://milligram.io) and configuration/capabilities for starting a Typescript or Javascript (6/7/8+) projec
 
 ## Contains
 
