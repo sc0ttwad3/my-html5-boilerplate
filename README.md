@@ -1,6 +1,6 @@
 # my-html5-boilerplate
 
-My HTML5 boilerplate with Milligram and configuration of capabilities for starting Typescript or Javascript (6/7/8+) projects
+My html5 boilerplate with configuration and capabilities for starting typescript-based esnext apps or moduless
 
 ## Contains
 
@@ -12,8 +12,6 @@ My HTML5 boilerplate with Milligram and configuration of capabilities for starti
 Easily serve the contents with a local HTTP2 server [simplehttp2server](https://github.com/GoogleChrome/simplehttp2server) from the Google Chrome team:
 
 On first run will drop ``cert.perm`` and ``key.perm`` into directory being served
-
-### modules : interview : functional : exercises : es6-node
 
 ## Setup
 
