@@ -1,6 +1,6 @@
 {
   "name": "my-html5-boilerplate",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "My html5 boilerplate with configuration and capabilities for starting typescript-based esnext apps or modules",
   "main": "lib/index.js",
   "scripts": {
@@ -42,5 +42,23 @@
       "js",
       "jsx"
     ]
-  }
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc0ttwad3/my-html5-boilerplate.git"
+  },
+  "keywords": [
+    "html5",
+    "node",
+    "typescript",
+    "esnext",
+    "jest"
+  ],
+  "bugs": {
+    "url": "https://github.com/sc0ttwad3/my-html5-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sc0ttwad3/my-html5-boilerplate#readme"
 }
