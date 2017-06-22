@@ -14,6 +14,8 @@
  * 4. Set maximum width.
  */
 
+/* Maybe use Modernizr to detect? */
+
 .container {
   display: grid; /* 1 */
   grid-gap: 1.5em; /* 2 */
@@ -83,15 +85,14 @@
 }
 
 .grid > .full {
-  /* grid-column: full-start / full-end; */
+  grid-column: full-start / full-end;
   grid-column: full;
+
+
 }
 
 .grid > div {
-  background-color: rgb(144, 122, 214);
-  font-weight: bold;
-  font-family: Baloo, sans-serif;
-  font-size: 2.157rem;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   border-radius: 5px;
 }
