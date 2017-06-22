@@ -135,9 +135,15 @@ body {
   */
 }
 
-header { color: #9ea7aa; }
+header {
+  background-color: #9ea7aa
+}
+
 h1.page { color: #222; }
-dt { font-weight: 700; }
+footer {
+  color: #b3d4fc;
+  background-color: #222;
+  }
 
 
 
