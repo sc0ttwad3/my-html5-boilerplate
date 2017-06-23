@@ -2,7 +2,7 @@
     "compilerOptions": {
         "allowJs": true,
         "module": "commonjs",   // Node module
-    "target": "es5", // "esnext"
+        "target": "es5", // "esnext"
         "noImplicitAny": false,
         "outDir": "lib",
         "rootDir": "src",
