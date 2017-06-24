@@ -2,4 +2,4 @@
 
 console.log('main.js running now...');
 
-$(function () { });
+// $(function () { });
