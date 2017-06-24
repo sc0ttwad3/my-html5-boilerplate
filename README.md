@@ -33,6 +33,10 @@ $ simplehttp2server
 npm test
 ```
 
+## Documentation
+
+Soon to be utilizing [ESdoc](https://esdoc.org/manual/faq/faq.html) which is better suited to ES2017+ projects.
+
 ## Note
 
 This project is still evolving to encompass further refinements and customizations.
