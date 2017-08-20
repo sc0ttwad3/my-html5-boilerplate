@@ -1,6 +1,6 @@
 {
   "name": "my-html5-boilerplate",
-  "version": "1.0.0",
+  "version": "0.4.0",
   "description": "My html5 boilerplate with configuration and capabilities for starting typescript-based esnext apps or modules",
   "main": "lib/index.js",
   "scripts": {
@@ -63,5 +63,8 @@
   "bugs": {
     "url": "https://github.com/sc0ttwad3/my-html5-boilerplate/issues"
   },
-  "homepage": "https://github.com/sc0ttwad3/my-html5-boilerplate#readme"
+  "homepage": "https://github.com/sc0ttwad3/my-html5-boilerplate#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
