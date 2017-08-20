@@ -1,43 +1,35 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "module": "commonjs",   // Node module
-        "target": "es5", // "esnext"
-        "noImplicitAny": false,
-        "outDir": "lib",
-        "rootDir": "src",
-        "moduleResolution": "node",
-        "importHelpers": true,
-        "inlineSourceMap": true,
-        "listFiles": false,
-        "traceResolution": false,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "pretty": true,
-    "downlevelIteration": false,
-        "lib": [
-      	  "esnext"
-        ],
-        "types": [
-          "node"
-        ],
-        "baseUrl": ".", // required for "paths"
-        "paths": {
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",   // Node module
+    "target": "esnext",
+    "noImplicitAny": false,
+    "outDir": "lib",
+    "rootDir": "src",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": ".", // required for "paths"
+    "paths": {
       "*": [
         "*",
         "src/*"
       ]
-      // "data-structures": [
-        // "src/index.js"
-      // ] // write tests without relative paths
-        }
     },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-    "node_modules/**",
-    "scratch/**",
-    "docs/**"
-    ]
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "scratch",
+    "docs",
+    "src/**/*.test.*"
+  ]
 }
+

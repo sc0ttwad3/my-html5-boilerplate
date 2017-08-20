@@ -1,3 +1,5 @@
+![Logo of the project](./images/logo.sample.png)
+
 # my-html5-boilerplate
 
 My html5 boilerplate with configuration and capabilities for starting typescript-based esnext apps or moduless
