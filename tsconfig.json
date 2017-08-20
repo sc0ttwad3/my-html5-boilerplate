@@ -11,7 +11,7 @@
     "experimentalDecorators": true,
     "pretty": true,
     "types": [
-      "node"
+
     ],
     "baseUrl": ".", // required for "paths"
     "paths": {
